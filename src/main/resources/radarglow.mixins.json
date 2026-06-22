@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.radarglow.mixin",
+  "refmap": "radarglow.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinEntity"
+  ],
+  "client": [
+    "MixinEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

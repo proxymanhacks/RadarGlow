@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "radarglow",
+  "version": "${version}",
+  "name": "RadarGlow",
+  "description": "Press a keybind to highlight all nearby living entities with a glowing blue outline for 10 seconds.",
+  "authors": ["himhams"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.radarglow.RadarGlowClient"
+    ]
+  },
+  "mixins": [
+    "radarglow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
